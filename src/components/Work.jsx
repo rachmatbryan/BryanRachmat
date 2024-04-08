@@ -2,9 +2,12 @@ import React from "react";
 
 const Work = () => {
   return (
-    <div className="max-w-[1200px] mx-auto p-5" id="work">
+    <div
+      className=" border-b border-slate-900 max-w-[1200px] mx-auto p-5"
+      id="work"
+    >
       <div className="pb-8">
-        <p className="text-4xl mb-3 font-bold text-blue-400">
+        <p className="text-4xl mb-3 font-bold text-blue-500">
           Experiences / Projects
         </p>
       </div>
