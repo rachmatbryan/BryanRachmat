@@ -9,7 +9,11 @@ const Footer = () => {
     <div className=" bg-slate-900 max-w-[2000px] sm:h-[150px] p-12 flex justify-between mx-auto">
       <p className="text-gray-50"> rachmat.bryan@gmail.com </p>
       <div className="flex flex-wrap justify-center gap-4 my-4">
-        <a href="path_to_your_cv.pdf" download="CV_BryanRachmat">
+        <a
+          href="../../public/Bryan_CV.pdf"
+          download="Bryan_CV.pdf
+          "
+        >
           <img className="w-8 h-8" src={cv} alt="LinkedIn profile" />
         </a>
 
