@@ -14,7 +14,7 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/your-profile"
+          href="https://www.linkedin.com/in/bryan-rachmat-a48006269/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -22,14 +22,14 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://github.com/your-username"
+          href="https://github.com/rachmatbryan"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img className="w-8 h-8" src={github} alt="GitHub profile" />
         </a>
 
-        <a href="mailto:your-email@gmail.com">
+        <a href="mailto:rachmat.bryan@gmail.com">
           <img className="w-8 h-8" src={email} alt="Email" />
         </a>
       </div>

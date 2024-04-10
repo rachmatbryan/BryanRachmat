@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../assets/30.jpg";
+import heroImage from "../assets/bryan2.png";
 import { TypeAnimation } from "react-type-animation";
 import github from "../assets/github-logo.png";
 import email from "../assets/email.png";
@@ -8,7 +8,7 @@ import cv from "../assets/cv.png";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-gray-50">
+    <div className="grid grid-cols-1 sm:grid-cols-3  max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-gray-50">
       <div className=" col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px]">
         <img className="rounded-full" src={heroImage} alt="hero image" />
       </div>
@@ -37,7 +37,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/bryan-rachmat-a48006269/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -45,14 +45,14 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/rachmatbryan"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img className="w-8 h-8" src={github} alt="GitHub profile" />
           </a>
 
-          <a href="mailto:your-email@gmail.com">
+          <a href="mailto:rachmat.bryan@gmail.com">
             <img className="w-8 h-8" src={email} alt="Email" />
           </a>
         </div>
