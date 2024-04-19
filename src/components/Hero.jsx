@@ -9,10 +9,6 @@ import cv from "../assets/cv.png";
 const Hero = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3  max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-gray-50">
-      <div className=" col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px]">
-        <img className="rounded-full" src={heroImage} alt="hero image" />
-      </div>
-
       <div className="col-span-2 px-5 my-auto">
         <h1 className="text-gray-950 text-4xl sm:text-5xl lg:text-8xl font-extrabold">
           <span className="text-blue-500">Bryan Rachmat</span>
