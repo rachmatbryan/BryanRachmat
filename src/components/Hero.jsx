@@ -28,11 +28,7 @@ const Hero = () => {
 
       <div className="flex flex-col sm:flex-row justify-center items-center sm:col-span-2 lg:col-span-1">
         <div className="flex flex-wrap justify-center gap-4 my-4">
-          <a
-            href="../../public/Bryan_CV.pdf"
-            download="Bryan_CV.pdf
-          "
-          >
+          <a href="/public/Bryan_CV.pdf" download="Bryan_CV.pdf">
             <img className="w-8 h-8" src={cv} alt="LinkedIn profile" />
           </a>
 
